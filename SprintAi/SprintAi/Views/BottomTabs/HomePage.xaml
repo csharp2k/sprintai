@@ -8,17 +8,17 @@
     <Grid ColumnDefinitions="Auto,*,Auto" Padding="10" BackgroundColor="LightGray">
         <Image Grid.Column="0" Source="hamburger.png" WidthRequest="24" HeightRequest="24" />
         <HorizontalStackLayout Grid.Column="1" HorizontalOptions="Center" Spacing="20">
-            <Label Text="Following" VerticalOptions="Center">
+            <Label x:Name="FollowingLabel" Text="Following" VerticalOptions="Center" TextColor="Gray">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Following_Tapped" />
                 </Label.GestureRecognizers>
             </Label>
-            <Label Text="Explore" FontAttributes="Bold" VerticalOptions="Center">
+            <Label x:Name="ExploreLabel" Text="Explore" VerticalOptions="Center" TextColor="Gray">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Explore_Tapped" />
                 </Label.GestureRecognizers>
             </Label>
-            <Label Text="Nearby" VerticalOptions="Center">
+            <Label x:Name="NearbyLabel" Text="Nearby" VerticalOptions="Center" TextColor="Gray">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Nearby_Tapped" />
                 </Label.GestureRecognizers>

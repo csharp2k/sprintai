@@ -62,7 +62,7 @@ public partial class ExplorePage : ContentPage
         FashionLabel.FontAttributes = FontAttributes.None;
 
         // highlight selected
-        selected.TextColor = Colors.Blue;
+        selected.TextColor = Colors.Black;
         selected.FontAttributes = FontAttributes.Bold;
     }
 }

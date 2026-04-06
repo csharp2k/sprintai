@@ -30,16 +30,19 @@ public partial class HomePage : ContentPage
     private void ShowFollowing()
     {
         InnerContentHolder.Content = _followingPage.Content;
+        SetSelectedLabel(FollowingLabel);
     }
 
     private void ShowExplore()
     {
         InnerContentHolder.Content = _explorePage.Content;
+        SetSelectedLabel(ExploreLabel);
     }
 
     private void ShowNearby()
     {
         InnerContentHolder.Content = _nearbyPage.Content;
+        SetSelectedLabel(NearbyLabel);
     }
 
     // Public API to allow outer container to control which inner page is shown
@@ -63,5 +66,23 @@ public partial class HomePage : ContentPage
     {
         ShowNearby();
         NearbyTapped?.Invoke(this, EventArgs.Empty);
+    }
+
+    private void SetSelectedLabel(Label selected)
+    {
+        // default styles
+        var defaultColor = Colors.Gray;
+
+        FollowingLabel.TextColor = defaultColor;
+        ExploreLabel.TextColor = defaultColor;
+        NearbyLabel.TextColor = defaultColor;
+
+        FollowingLabel.FontAttributes = FontAttributes.None;
+        ExploreLabel.FontAttributes = FontAttributes.None;
+        NearbyLabel.FontAttributes = FontAttributes.None;
+
+        // highlight selected
+        selected.TextColor = Colors.Black;
+        selected.FontAttributes = FontAttributes.Bold;
     }
 }

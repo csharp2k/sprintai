@@ -7,7 +7,6 @@
     xmlns:views="clr-namespace:SprintAi.Views">
 
     <ShellContent
-        Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
@@ -15,5 +14,8 @@
     <ShellContent Route="following" ContentTemplate="{DataTemplate views:FollowingPage}" />
     <ShellContent Route="explore" ContentTemplate="{DataTemplate views:ExplorePage}" />
     <ShellContent Route="nearby" ContentTemplate="{DataTemplate views:NearbyPage}" />
+    <ShellItem Title="About">
+        <ShellContent ContentTemplate="{DataTemplate views:AboutPage}" Route="about" />
+    </ShellItem>
 
 </Shell>

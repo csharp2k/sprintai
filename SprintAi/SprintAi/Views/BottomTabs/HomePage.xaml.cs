@@ -4,9 +4,7 @@ namespace SprintAi.Views.BottomTabs;
 
 public partial class HomePage : ContentPage
 {
-    public event EventHandler FollowingTapped;
-    public event EventHandler ExploreTapped;
-    public event EventHandler NearbyTapped;
+    // unused events removed
 
     private FollowingPage _followingPage;
     private ExplorePage _explorePage;
@@ -53,19 +51,16 @@ public partial class HomePage : ContentPage
     private void Following_Tapped(object sender, EventArgs e)
     {
         ShowFollowing();
-        FollowingTapped?.Invoke(this, EventArgs.Empty);
     }
 
     private void Explore_Tapped(object sender, EventArgs e)
     {
         ShowExplore();
-        ExploreTapped?.Invoke(this, EventArgs.Empty);
     }
 
     private void Nearby_Tapped(object sender, EventArgs e)
     {
         ShowNearby();
-        NearbyTapped?.Invoke(this, EventArgs.Empty);
     }
 
     private void SetSelectedLabel(Label selected)

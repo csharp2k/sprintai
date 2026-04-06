@@ -1,16 +1,11 @@
 ﻿using SprintAi.ViewModels;
-using SprintAi.Views;
 using SprintAi.Views.BottomTabs;
 
 namespace SprintAi
 {
     public partial class MainPage : ContentPage
     {
-        private ContentPage _followingPage;
-        private ContentPage _explorePage;
-        private ContentPage _nearbyPage;
-
-        // category pages removed from MainPage (moved into HomePage)
+        // category pages moved into HomePage
 
         private HomePage _homePage;
         private ContentPage _marketPage;
@@ -21,11 +16,6 @@ namespace SprintAi
         {
             InitializeComponent();
             BindingContext = new MainViewModel();
-
-            // Initialize pages but do not push them
-            _followingPage = new FollowingPage { BindingContext = BindingContext };
-            _explorePage = new ExplorePage { BindingContext = BindingContext };
-            _nearbyPage = new NearbyPage { BindingContext = BindingContext };
 
             // category pages are handled from HomePage now
 
@@ -43,20 +33,7 @@ namespace SprintAi
             _homePage.ShowExploreInner();
         }
 
-        private void ShowFollowing()
-        {
-            ContentHolder.Content = _followingPage.Content;
-        }
-
-        private void ShowExplore()
-        {
-            ContentHolder.Content = _explorePage.Content;
-        }
-
-        private void ShowNearby()
-        {
-            ContentHolder.Content = _nearbyPage.Content;
-        }
+        // Local methods for switching to removed standalone category pages were removed
 
         // top navigation is handled by HomePage events; category taps moved into HomePage
 

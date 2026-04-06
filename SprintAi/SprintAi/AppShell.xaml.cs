@@ -11,6 +11,7 @@
             Routing.RegisterRoute("LivePage", typeof(Views.Categories.LivePage));
             Routing.RegisterRoute("SeriesPage", typeof(Views.Categories.SeriesPage));
             Routing.RegisterRoute("FashionPage", typeof(Views.Categories.FashionPage));
+            Routing.RegisterRoute("about", typeof(Views.AboutPage));
         }
     }
 }

@@ -5,9 +5,6 @@
              x:Class="SprintAi.Views.ExplorePage">
 
     <Grid RowDefinitions="Auto,Auto,*,Auto">
-        <Grid RowDefinitions="Auto" Padding="10" BackgroundColor="LightGray">
-        </Grid>
-
         <!-- Category Scroll Bar moved from HomePage -->
         <ScrollView Grid.Row="1" Orientation="Horizontal" BackgroundColor="White">
             <HorizontalStackLayout Spacing="15" Padding="10">
@@ -43,10 +40,6 @@
         <ContentView Grid.Row="2" x:Name="CategoryContent" BackgroundColor="Transparent">
             <!-- content will be loaded from code-behind -->
         </ContentView>
-
-
-
-        <!-- Bottom navigation removed, now shared in MainPage -->
     </Grid>
 
 </ContentPage>

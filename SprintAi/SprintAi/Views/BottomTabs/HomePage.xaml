@@ -3,35 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SprintAi.Views.BottomTabs.HomePage">
 
-<StackLayout Padding="10">
-    <!-- Top Navigation Bar moved here -->
-    <Grid ColumnDefinitions="Auto,*,Auto" Padding="10" BackgroundColor="LightGray">
-        <Image Grid.Column="0" Source="hamburger.png" WidthRequest="24" HeightRequest="24" />
-        <HorizontalStackLayout Grid.Column="1" HorizontalOptions="Center" Spacing="20">
-            <Label x:Name="FollowingLabel" Text="Following" VerticalOptions="Center" TextColor="Gray">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Following_Tapped" />
-                </Label.GestureRecognizers>
-            </Label>
-            <Label x:Name="ExploreLabel" Text="Explore" VerticalOptions="Center" TextColor="Gray">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Explore_Tapped" />
-                </Label.GestureRecognizers>
-            </Label>
-            <Label x:Name="NearbyLabel" Text="Nearby" VerticalOptions="Center" TextColor="Gray">
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Nearby_Tapped" />
-                </Label.GestureRecognizers>
-            </Label>
-        </HorizontalStackLayout>
-        <Image Grid.Column="2" Source="search.png" WidthRequest="24" HeightRequest="24" />
+    <!-- Use a Grid with two rows: top nav (Auto) and content (*) -->
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Top Navigation Bar moved here -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Padding="10" BackgroundColor="LightGray">
+            <!--<Image Grid.Column="0" Source="hamburger.png" WidthRequest="24" HeightRequest="24" />-->
+            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="Center" Spacing="20">
+                <Label x:Name="FollowingLabel" Text="Following" VerticalOptions="Center" TextColor="Gray">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Following_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label x:Name="ExploreLabel" Text="Explore" VerticalOptions="Center" TextColor="Gray">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Explore_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label x:Name="NearbyLabel" Text="Nearby" VerticalOptions="Center" TextColor="Gray">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Nearby_Tapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+        </Grid>
+
+        <!-- Inner content area that will display Following/Explore/Nearby without full navigation -->
+        <ContentView x:Name="InnerContentHolder" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Fill">
+        </ContentView>
+
     </Grid>
-
-    <!-- Category Scroll Bar moved to ExplorePage -->
-
-    <!-- Inner content area that will display Following/Explore/Nearby without full navigation -->
-    <ContentView x:Name="InnerContentHolder" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
-
-</StackLayout>
 
 </ContentPage>

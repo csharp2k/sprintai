@@ -3,20 +3,108 @@
   "WorkspaceRootPath": "D:\\repo\\sprintai\\SprintAi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\explorepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\explorepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\foryoupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\foryoupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\explorepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\explorepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\foryoupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\foryoupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\messagespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\mepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\mepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\mepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\mepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\marketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\marketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\followingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\followingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\videopage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\videopage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\seriespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\seriespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\livepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\livepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\fashionpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\fashionpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\messagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\messagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\nearbypage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\nearbypage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\mepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\mepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\marketpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\marketpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\explorepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\explorepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\foryoupage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -43,22 +131,6 @@
       "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\followingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\messagespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\mepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\mepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\foryoupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\foryoupage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\videopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\videopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,44 +143,8 @@
       "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\seriespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\nearbypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\nearbypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\nearbypage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\nearbypage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\marketpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\marketpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\messagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\messagespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\bottomtabs\\mepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\bottomtabs\\mepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\videopage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\videopage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\livepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\livepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\seriespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\seriespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\views\\categories\\fashionpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|solutionrelative:sprintai\\views\\categories\\fashionpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21744466-2B2B-B5CE-C586-3D6D4066CF8B}|SprintAi\\SprintAi.csproj|d:\\repo\\sprintai\\sprintai\\sprintai\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,46 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
-              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAtwFcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:35:47.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\HomePage.xaml",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml",
-              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\HomePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:34:40.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExplorePage.xaml",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\ExplorePage.xaml",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\ExplorePage.xaml",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\ExplorePage.xaml",
-              "RelativeToolTip": "SprintAi\\Views\\ExplorePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:22:13.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "LivePage.xaml",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\LivePage.xaml",
               "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\LivePage.xaml",
@@ -177,35 +174,142 @@
               "RelativeToolTip": "SprintAi\\Views\\Categories\\LivePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.56Z"
+              "WhenOpened": "2026-04-06T03:12:52.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "VideoPage.xaml",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\VideoPage.xaml",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\VideoPage.xaml",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\VideoPage.xaml",
-              "RelativeToolTip": "SprintAi\\Views\\Categories\\VideoPage.xaml",
+              "DocumentIndex": 12,
+              "Title": "MePage.xaml.cs",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
+              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.5Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T03:09:26.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\AppShell.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\AppShell.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\AppShell.xaml",
+              "RelativeToolTip": "SprintAi\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:09:26.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForYouPage.xaml.cs",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
+              "RelativeToolTip": "SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T03:09:26.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ForYouPage.xaml",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml",
               "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\ForYouPage.xaml",
               "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml",
               "RelativeToolTip": "SprintAi\\Views\\Categories\\ForYouPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.445Z"
+              "WhenOpened": "2026-04-06T03:38:07.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 4,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\HomePage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:34:40.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\App.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\App.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\App.xaml",
+              "RelativeToolTip": "SprintAi\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T04:31:43.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExplorePage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\ExplorePage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\ExplorePage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\ExplorePage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\ExplorePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:22:13.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\MainPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\MainPage.xaml",
+              "RelativeToolTip": "SprintAi\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:39:16.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "SprintAi\\MainPage.xaml.cs",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\MainPage.xaml.cs",
+              "RelativeToolTip": "SprintAi\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T03:09:25.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessagesPage.xaml.cs",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
+              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T03:09:26.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MePage.xaml",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MePage.xaml",
               "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MePage.xaml",
@@ -213,7 +317,125 @@
               "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.39Z"
+              "WhenOpened": "2026-04-06T03:40:03.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MarketPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MarketPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MarketPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MarketPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MarketPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:40:00.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FollowingPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\FollowingPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\FollowingPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\FollowingPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\FollowingPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:39:25.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "SprintAi\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "SprintAi\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T04:29:15.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
+              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\HomePage.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T03:35:47.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "SprintAi\\Models\\Post.cs",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Models\\Post.cs",
+              "RelativeToolTip": "SprintAi\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T04:29:00.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VideoPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\VideoPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\VideoPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\VideoPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\Categories\\VideoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:12:52.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SeriesPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\SeriesPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\SeriesPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\SeriesPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\Categories\\SeriesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:12:52.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MessagesPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MessagesPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MessagesPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MessagesPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MessagesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:45:45.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FashionPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\FashionPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\FashionPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\FashionPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\Categories\\FashionPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:12:52.677Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -225,11 +447,51 @@
               "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MessagesPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.335Z"
+              "WhenOpened": "2026-04-06T03:12:52.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
+              "Title": "ForYouPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\ForYouPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\Categories\\ForYouPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:12:52.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MePage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MePage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MePage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MePage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:12:52.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NearbyPage.xaml",
+              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\NearbyPage.xaml",
+              "RelativeDocumentMoniker": "SprintAi\\Views\\NearbyPage.xaml",
+              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\NearbyPage.xaml",
+              "RelativeToolTip": "SprintAi\\Views\\NearbyPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-06T03:12:52.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "MarketPage.xaml",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MarketPage.xaml",
               "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MarketPage.xaml",
@@ -237,11 +499,12 @@
               "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MarketPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.273Z"
+              "WhenOpened": "2026-04-06T03:12:52.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 25,
               "Title": "ExplorePage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\ExplorePage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\ExplorePage.xaml.cs",
@@ -254,31 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SeriesPage.xaml",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\SeriesPage.xaml",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\SeriesPage.xaml",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\SeriesPage.xaml",
-              "RelativeToolTip": "SprintAi\\Views\\Categories\\SeriesPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "FashionPage.xaml",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\FashionPage.xaml",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\FashionPage.xaml",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\FashionPage.xaml",
-              "RelativeToolTip": "SprintAi\\Views\\Categories\\FashionPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 36,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\AppShell.xaml.cs",
@@ -290,19 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NearbyPage.xaml",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\NearbyPage.xaml",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\NearbyPage.xaml",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\NearbyPage.xaml",
-              "RelativeToolTip": "SprintAi\\Views\\NearbyPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:12:52.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 27,
               "Title": "ExplorePage.xaml",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\ExplorePage.xaml",
               "RelativeDocumentMoniker": "SprintAi\\Views\\ExplorePage.xaml",
@@ -313,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "FollowingPage.xaml",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\FollowingPage.xaml",
               "RelativeDocumentMoniker": "SprintAi\\Views\\FollowingPage.xaml",
@@ -321,11 +548,12 @@
               "RelativeToolTip": "SprintAi\\Views\\FollowingPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:09:33.528Z"
+              "WhenOpened": "2026-04-06T03:09:33.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 35,
               "Title": "NearbyPage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\NearbyPage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\NearbyPage.xaml.cs",
@@ -337,19 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\AppShell.xaml",
-              "RelativeDocumentMoniker": "SprintAi\\AppShell.xaml",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\AppShell.xaml",
-              "RelativeToolTip": "SprintAi\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-06T03:09:26.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 34,
               "Title": "SeriesPage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\SeriesPage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\SeriesPage.xaml.cs",
@@ -361,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "LivePage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\LivePage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\LivePage.xaml.cs",
@@ -373,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 32,
               "Title": "VideoPage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\VideoPage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\VideoPage.xaml.cs",
@@ -385,55 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ForYouPage.xaml.cs",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
-              "RelativeToolTip": "SprintAi\\Views\\Categories\\ForYouPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:09:26.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MePage.xaml.cs",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
-              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:09:26.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MessagesPage.xaml.cs",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
-              "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
-              "RelativeToolTip": "SprintAi\\Views\\BottomTabs\\MessagesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:09:26.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "SprintAi\\MainPage.xaml.cs",
-              "ToolTip": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\MainPage.xaml.cs",
-              "RelativeToolTip": "SprintAi\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:09:25.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 29,
               "Title": "MarketPage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\BottomTabs\\MarketPage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\BottomTabs\\MarketPage.xaml.cs",
@@ -445,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 30,
               "Title": "FashionPage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\Categories\\FashionPage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\Categories\\FashionPage.xaml.cs",
@@ -457,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 31,
               "Title": "FollowingPage.xaml.cs",
               "DocumentMoniker": "D:\\repo\\sprintai\\SprintAi\\SprintAi\\Views\\FollowingPage.xaml.cs",
               "RelativeDocumentMoniker": "SprintAi\\Views\\FollowingPage.xaml.cs",

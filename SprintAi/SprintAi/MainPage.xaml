@@ -1,36 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:SprintAi.ViewModels"
+             xmlns:models="clr-namespace:SprintAi.Models"
              x:Class="SprintAi.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a submarine number ten" />
+    <Grid RowDefinitions="Auto,Auto,*,Auto">
+        <!-- Top Navigation Bar -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Padding="10" BackgroundColor="LightGray">
+            <Image Grid.Column="0" Source="hamburger.png" WidthRequest="24" HeightRequest="24" />
+            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="Center" Spacing="20">
+                <Label Text="Following" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFollowingTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Text="Explore" FontAttributes="Bold" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnExploreTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Text="Nearby" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnNearbyTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+            <Image Grid.Column="2" Source="search.png" WidthRequest="24" HeightRequest="24" />
+        </Grid>
 
-            <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
+        <!-- Category Scroll Bar -->
+        <ScrollView Grid.Row="1" Orientation="Horizontal" BackgroundColor="White">
+            <HorizontalStackLayout Spacing="15" Padding="10">
+                <Label Text="For You" FontAttributes="Bold" />
+                <Label Text="Video" />
+                <Label Text="Live" />
+                <Label Text="Series" />
+                <Label Text="Fashion" />
+            </HorizontalStackLayout>
+        </ScrollView>
 
-            <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+        <!-- Main Content Feed area (will be swapped in-code) -->
+        <ContentView Grid.Row="2" x:Name="ContentHolder" />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
-        </VerticalStackLayout>
-    </ScrollView>
+        <!-- Bottom Navigation Bar moved into individual pages (Following/Explore/Nearby) -->
+    </Grid>
 
 </ContentPage>

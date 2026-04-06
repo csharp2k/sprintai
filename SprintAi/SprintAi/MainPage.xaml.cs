@@ -1,24 +1,30 @@
-﻿namespace SprintAi
+﻿using SprintAi.ViewModels;
+
+namespace SprintAi
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new MainViewModel();
         }
 
-        private void OnCounterClicked(object? sender, EventArgs e)
+        private async void OnFollowingTapped(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            await Shell.Current.GoToAsync("//following");
         }
+
+        private async void OnExploreTapped(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("//explore");
+        }
+
+        private async void OnNearbyTapped(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("//nearby");
+        }
+
+        // Removed unused overload to avoid ambiguity with the tapped handlers in XAML.
     }
 }

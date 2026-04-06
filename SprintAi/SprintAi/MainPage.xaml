@@ -20,14 +20,14 @@
                     <TapGestureRecognizer Tapped="OnHomeTapped" />
                 </VerticalStackLayout.GestureRecognizers>
                 <Image Source="home_active.png" WidthRequest="24" HeightRequest="24" />
-                <Label Text="Home" FontSize="12" />
+                <Label x:Name="HomeLabel" Text="Home" FontSize="12" FontAttributes="Bold" TextColor="Black" />
             </VerticalStackLayout>
             <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
                 <VerticalStackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnMarketTapped" />
                 </VerticalStackLayout.GestureRecognizers>
                 <Image Source="market.png" WidthRequest="24" HeightRequest="24" />
-                <Label Text="Market" FontSize="12" />
+                <Label x:Name="MarketLabel" Text="Market" FontSize="12" TextColor="Gray" FontAttributes="None" />
             </VerticalStackLayout>
             <Button Grid.Column="2" Text="+" BackgroundColor="Red" TextColor="White" WidthRequest="50" HeightRequest="50" CornerRadius="25" VerticalOptions="Center" />
             <VerticalStackLayout Grid.Column="3" HorizontalOptions="Center">
@@ -38,14 +38,14 @@
                     <Image Source="messages.png" WidthRequest="24" HeightRequest="24" />
                     <Label Text="1" BackgroundColor="Red" TextColor="White" FontSize="10" HorizontalOptions="End" VerticalOptions="Start" Margin="15,0,0,15" Padding="3" />
                 </Grid>
-                <Label Text="Messages" FontSize="12" />
+                <Label x:Name="MessagesLabel" Text="Messages" FontSize="12" TextColor="Gray" FontAttributes="None" />
             </VerticalStackLayout>
             <VerticalStackLayout Grid.Column="4" HorizontalOptions="Center">
                 <VerticalStackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnMeTapped" />
                 </VerticalStackLayout.GestureRecognizers>
                 <Image Source="profile.png" WidthRequest="24" HeightRequest="24" />
-                <Label Text="Me" FontSize="12" />
+                <Label x:Name="MeLabel" Text="Me" FontSize="12" TextColor="Gray" FontAttributes="None" />
             </VerticalStackLayout>
         </Grid>
     </Grid>

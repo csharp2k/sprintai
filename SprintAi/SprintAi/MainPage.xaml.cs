@@ -1,4 +1,5 @@
 ﻿using SprintAi.ViewModels;
+using Microsoft.Maui.Graphics;
 using SprintAi.Views.BottomTabs;
 
 namespace SprintAi
@@ -31,6 +32,9 @@ namespace SprintAi
 
             // then instruct HomePage to show Explore inner page
             _homePage.ShowExploreInner();
+
+            // Ensure the bottom nav highlights the Home item by default
+            UpdateSelectedLabel(HomeLabel);
         }
 
         // Local methods for switching to removed standalone category pages were removed
@@ -41,21 +45,48 @@ namespace SprintAi
         {
             // Home should show the home page which contains the category bar and default feed
             ContentHolder.Content = _homePage.Content;
+            UpdateSelectedLabel(HomeLabel);
         }
 
         private void OnMarketTapped(object sender, EventArgs e)
         {
             ContentHolder.Content = _marketPage.Content;
+            UpdateSelectedLabel(MarketLabel);
         }
 
         private void OnMessagesTapped(object sender, EventArgs e)
         {
             ContentHolder.Content = _messagesPage.Content;
+            UpdateSelectedLabel(MessagesLabel);
         }
 
         private void OnMeTapped(object sender, EventArgs e)
         {
             ContentHolder.Content = _mePage.Content;
+            UpdateSelectedLabel(MeLabel);
+        }
+
+        private void UpdateSelectedLabel(Label selected)
+        {
+            // Reset all to default (Gray, normal)
+            HomeLabel.TextColor = Colors.Gray;
+            HomeLabel.FontAttributes = FontAttributes.None;
+
+            MarketLabel.TextColor = Colors.Gray;
+            MarketLabel.FontAttributes = FontAttributes.None;
+
+            MessagesLabel.TextColor = Colors.Gray;
+            MessagesLabel.FontAttributes = FontAttributes.None;
+
+            MeLabel.TextColor = Colors.Gray;
+            MeLabel.FontAttributes = FontAttributes.None;
+
+            // Highlight the selected one (Black, Bold)
+            if (selected != null)
+            {
+                selected.TextColor = Colors.Black;
+                selected.FontAttributes = FontAttributes.Bold;
+            }
         }
     }
 }

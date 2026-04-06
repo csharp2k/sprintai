@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Sprint.Maui.ViewModels"
+             xmlns:models="clr-namespace:Sprint.Maui.Models"
+             x:Class="Sprint.Maui.Views.MessagesPage"
+             Title="Messages">
+
+    <RefreshView IsRefreshing="{Binding IsBusy}" Command="{Binding LoadConversationsCommand}">
+        <CollectionView x:Name="ConversationsCollectionView"
+                        ItemsSource="{Binding Conversations}"
+                        SelectionMode="Single"
+                        BackgroundColor="{StaticResource PageBackgroundColor}">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Conversation">
+                    <Grid Padding="16" BackgroundColor="White" RowSpacing="8">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0" ColumnSpacing="12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Avatar -->
+                            <Grid Grid.Column="0">
+                                <Image Source="{Binding ParticipantAvatar}"
+                                       Aspect="AspectFill"
+                                       WidthRequest="50"
+                                       HeightRequest="50">
+                                    <Image.Clip>
+                                        <EllipseGeometry Center="25,25" RadiusX="25" RadiusY="25" />
+                                    </Image.Clip>
+                                </Image>
+
+                                <!-- Online indicator -->
+                                <Frame BackgroundColor="{Binding IsOnline, Converter={StaticResource BoolToColorConverter}, ConverterParameter=Green}"
+                                       CornerRadius="8"
+                                       WidthRequest="16"
+                                       HeightRequest="16"
+                                       HorizontalOptions="End"
+                                       VerticalOptions="End"
+                                       Margin="0,0,2,2"
+                                       Padding="0"
+                                       IsVisible="{Binding IsOnline}" />
+                            </Grid>
+
+                            <!-- Name and time -->
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="{Binding ParticipantName}"
+                                       FontAttributes="Bold"
+                                       FontSize="16"
+                                       TextColor="{StaticResource PrimaryTextColor}" />
+
+                                <Label Text="{Binding LastMessageTime, StringFormat='{0:g}'}"
+                                       FontSize="12"
+                                       TextColor="{StaticResource SecondaryTextColor}" />
+                            </StackLayout>
+
+                            <!-- Unread count -->
+                            <Frame Grid.Column="2"
+                                   BackgroundColor="{StaticResource Primary}"
+                                   CornerRadius="10"
+                                   WidthRequest="20"
+                                   HeightRequest="20"
+                                   HorizontalOptions="End"
+                                   VerticalOptions="Start"
+                                   IsVisible="{Binding UnreadCount, Converter={StaticResource IsGreaterThanZeroConverter}}"
+                                   Padding="0">
+                                <Label Text="{Binding UnreadCount}"
+                                       TextColor="White"
+                                       FontSize="12"
+                                       FontAttributes="Bold"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center" />
+                            </Frame>
+                        </Grid>
+
+                        <!-- Last message -->
+                        <Label Grid.Row="1"
+                               Text="{Binding LastMessage}"
+                               FontSize="14"
+                               TextColor="{StaticResource SecondaryTextColor}"
+                               LineBreakMode="TailTruncation"
+                               MaxLines="1" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <CollectionView.EmptyView>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="16">
+                    <Image Source="no_messages.png"
+                           WidthRequest="100"
+                           HeightRequest="100"
+                           Aspect="AspectFit"
+                           Opacity="0.5" />
+                    <Label Text="No messages yet"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource SecondaryTextColor}"
+                           HorizontalTextAlignment="Center" />
+                    <Label Text="Start a conversation!"
+                           FontSize="14"
+                           TextColor="{StaticResource SecondaryTextColor}"
+                           HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </CollectionView.EmptyView>
+        </CollectionView>
+    </RefreshView>
+</ContentPage>

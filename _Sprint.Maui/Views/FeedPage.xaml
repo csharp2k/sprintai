@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Sprint.Maui.ViewModels"
+             xmlns:models="clr-namespace:Sprint.Maui.Models"
+             x:Class="Sprint.Maui.Views.FeedPage"
+             Title="Feed">
+
+    <VerticalStackLayout>
+        <Label Text="Feed Page Loaded" HorizontalOptions="Center" />
+
+        <RefreshView IsRefreshing="{Binding IsBusy}" Command="{Binding LoadPostsCommand}">
+        <CollectionView x:Name="PostsCollectionView"
+                        ItemsSource="{Binding Posts}"
+                        SelectionMode="None"
+                        BackgroundColor="{StaticResource PageBackgroundColor}">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Post">
+                    <Grid Padding="16,12" BackgroundColor="White" RowSpacing="8">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <!-- Header -->
+                        <Grid Grid.Row="0" ColumnSpacing="12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="0"
+                                   Source="{Binding AuthorAvatar}"
+                                   Aspect="AspectFill"
+                                   WidthRequest="40"
+                                   HeightRequest="40"
+                                   HorizontalOptions="Start">
+                                <Image.Clip>
+                                    <EllipseGeometry Center="20,20" RadiusX="20" RadiusY="20" />
+                                </Image.Clip>
+                            </Image>
+
+                            <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                <Label Text="{Binding AuthorName}"
+                                       FontAttributes="Bold"
+                                       FontSize="16"
+                                       TextColor="{StaticResource PrimaryTextColor}" />
+                                <Label Text="{Binding CreatedAt, StringFormat='{0:g}'}"
+                                       FontSize="12"
+                                       TextColor="{StaticResource SecondaryTextColor}" />
+                            </StackLayout>
+
+                            <Button Grid.Column="2"
+                                    Text="⋯"
+                                    FontSize="18"
+                                    BackgroundColor="Transparent"
+                                    TextColor="{StaticResource SecondaryTextColor}"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Center" />
+                        </Grid>
+
+                        <!-- Content -->
+                        <Label Grid.Row="1"
+                               Text="{Binding Content}"
+                               FontSize="15"
+                               TextColor="{StaticResource PrimaryTextColor}"
+                               LineBreakMode="WordWrap" />
+
+                        <!-- Images -->
+                        <CollectionView Grid.Row="2"
+                                        ItemsSource="{Binding Images}"
+                                        HeightRequest="200"
+                                        SelectionMode="None"
+                                        IsVisible="{Binding Images, Converter={StaticResource IsNotNullOrEmptyConverter}}">
+                            <CollectionView.ItemsLayout>
+                                <LinearItemsLayout Orientation="Horizontal" />
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding .}"
+                                           Aspect="AspectFill"
+                                           WidthRequest="200"
+                                           HeightRequest="200"
+                                           Margin="0,0,8,0" />
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+
+                        <!-- Actions -->
+                        <Grid Grid.Row="3" ColumnSpacing="24">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Grid.Column="0"
+                                    Text="{Binding LikesCount, StringFormat='👍 {0}'}"
+                                    Command="{Binding BindingContext.LikePostCommand, Source={x:Reference PostsCollectionView}}"
+                                    CommandParameter="{Binding .}"
+                                    BackgroundColor="Transparent"
+                                    TextColor="{Binding IsLiked, Converter={StaticResource BoolToColorConverter}, ConverterParameter=Red}"
+                                    FontSize="14" />
+
+                            <Button Grid.Column="1"
+                                    Text="{Binding CommentsCount, StringFormat='💬 {0}'}"
+                                    Command="{Binding BindingContext.OpenPostCommand, Source={x:Reference PostsCollectionView}}"
+                                    CommandParameter="{Binding .}"
+                                    BackgroundColor="Transparent"
+                                    TextColor="{StaticResource SecondaryTextColor}"
+                                    FontSize="14" />
+
+                            <Button Grid.Column="2"
+                                    Text="🔗 Share"
+                                    BackgroundColor="Transparent"
+                                    TextColor="{StaticResource SecondaryTextColor}"
+                                    FontSize="14" />
+
+                            <Button Grid.Column="4"
+                                    Text="⋯"
+                                    BackgroundColor="Transparent"
+                                    TextColor="{StaticResource SecondaryTextColor}"
+                                    FontSize="14"
+                                    HorizontalOptions="End" />
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <CollectionView.EmptyView>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="16">
+
+                    <Label Text="No posts yet"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource SecondaryTextColor}"
+                           HorizontalTextAlignment="Center" />
+                    <Label Text="Be the first to share something!"
+                           FontSize="14"
+                           TextColor="{StaticResource SecondaryTextColor}"
+                           HorizontalTextAlignment="Center" />
+                </StackLayout>
+            </CollectionView.EmptyView>
+        </CollectionView>
+    </RefreshView>
+    </VerticalStackLayout>
+</ContentPage>

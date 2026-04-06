@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Sprint.Maui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Sprint.Maui.Views"
+    FlyoutBackgroundColor="{StaticResource Primary}"
+    Shell.BackgroundColor="{StaticResource Primary}"
+    Shell.ForegroundColor="White"
+    Shell.TitleColor="White"
+    Shell.DisabledColor="#B4FFFFFF"
+    Shell.UnselectedColor="#95FFFFFF"
+    Shell.TabBarBackgroundColor="{StaticResource Primary}"
+    Shell.TabBarForegroundColor="White"
+    Shell.TabBarUnselectedColor="#95FFFFFF"
+    Shell.TabBarTitleColor="White">
+
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="120" BackgroundColor="{StaticResource Primary}">
+            <Label Text="Sprint"
+                   TextColor="White"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <TabBar>
+        <ShellContent Title="Feed"
+                      ContentTemplate="{DataTemplate local:FeedPage}" />
+        <ShellContent Title="Messages"
+                      ContentTemplate="{DataTemplate local:MessagesPage}" />
+        <ShellContent Title="Profile"
+                      ContentTemplate="{DataTemplate local:ProfilePage}" />
+    </TabBar>
+
+    <!-- Routes -->
+    <ShellContent Route="LoginPage"
+                  ContentTemplate="{DataTemplate local:LoginPage}" />
+
+    <ShellContent Route="PostDetailPage"
+                  ContentTemplate="{DataTemplate local:PostDetailPage}" />
+
+    <ShellContent Route="CreatePostPage"
+                  ContentTemplate="{DataTemplate local:CreatePostPage}" />
+
+</Shell>

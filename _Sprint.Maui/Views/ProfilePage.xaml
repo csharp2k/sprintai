@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Sprint.Maui.ViewModels"
+             x:Class="Sprint.Maui.Views.ProfilePage"
+             Title="Profile">
+
+    <ScrollView>
+        <StackLayout Spacing="0" BackgroundColor="{StaticResource PageBackgroundColor}">
+
+            <!-- Cover and Avatar Section -->
+            <Grid HeightRequest="200" BackgroundColor="{StaticResource Primary}">
+                <Image Source="{Binding CurrentUser.CoverUrl}"
+                       Aspect="AspectFill"
+                       Opacity="0.3" />
+
+                <StackLayout VerticalOptions="End" Padding="16,0,16,20">
+                    <Image Source="{Binding CurrentUser.AvatarUrl}"
+                           Aspect="AspectFill"
+                           WidthRequest="80"
+                           HeightRequest="80"
+                           HorizontalOptions="Start"
+                           BackgroundColor="White">
+                        <Image.Clip>
+                            <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40" />
+                        </Image.Clip>
+                    </Image>
+
+                    <Label Text="{Binding CurrentUser.DisplayName}"
+                           FontAttributes="Bold"
+                           FontSize="24"
+                           TextColor="White"
+                           Margin="0,8,0,0" />
+
+                    <Label Text="{Binding CurrentUser.Username, StringFormat='@{0}'}"
+                           FontSize="16"
+                           TextColor="White"
+                           Opacity="0.9" />
+                </StackLayout>
+            </Grid>
+
+            <!-- Bio Section -->
+            <StackLayout BackgroundColor="White" Padding="16" Spacing="8">
+                <Label Text="{Binding CurrentUser.Bio}"
+                       FontSize="15"
+                       TextColor="{StaticResource PrimaryTextColor}"
+                       LineBreakMode="WordWrap" />
+
+                <StackLayout Orientation="Horizontal" Spacing="16">
+                    <Label Text="{Binding CurrentUser.FollowersCount, StringFormat='{0} followers'}"
+                           FontSize="14"
+                           TextColor="{StaticResource SecondaryTextColor}" />
+
+                    <Label Text="{Binding CurrentUser.FollowingCount, StringFormat='{0} following'}"
+                           FontSize="14"
+                           TextColor="{StaticResource SecondaryTextColor}" />
+                </StackLayout>
+
+                <Label Text="{Binding CurrentUser.CreatedAt, StringFormat='Joined {0:MMMM yyyy}'}"
+                       FontSize="12"
+                       TextColor="{StaticResource SecondaryTextColor}" />
+            </StackLayout>
+
+            <!-- Stats Section -->
+            <StackLayout BackgroundColor="White" Padding="16" Margin="0,8,0,0" Spacing="16">
+                <Label Text="Statistics"
+                       FontAttributes="Bold"
+                       FontSize="18"
+                       TextColor="{StaticResource PrimaryTextColor}" />
+
+                <Grid ColumnSpacing="16" RowSpacing="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                        <Label Text="{Binding CurrentUser.PostsCount}"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               TextColor="{StaticResource Primary}"
+                               HorizontalTextAlignment="Center" />
+                        <Label Text="Posts"
+                               FontSize="12"
+                               TextColor="{StaticResource SecondaryTextColor}"
+                               HorizontalTextAlignment="Center" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" HorizontalOptions="Center">
+                        <Label Text="{Binding CurrentUser.FollowersCount}"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               TextColor="{StaticResource Primary}"
+                               HorizontalTextAlignment="Center" />
+                        <Label Text="Followers"
+                               FontSize="12"
+                               TextColor="{StaticResource SecondaryTextColor}"
+                               HorizontalTextAlignment="Center" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                        <Label Text="{Binding CurrentUser.FollowingCount}"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               TextColor="{StaticResource Primary}"
+                               HorizontalTextAlignment="Center" />
+                        <Label Text="Following"
+                               FontSize="12"
+                               TextColor="{StaticResource SecondaryTextColor}"
+                               HorizontalTextAlignment="Center" />
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+
+            <!-- Menu Section -->
+            <StackLayout BackgroundColor="White" Margin="0,8,0,0" Spacing="0">
+                <Button Text="Edit Profile"
+                        Command="{Binding EditProfileCommand}"
+                        BackgroundColor="Transparent"
+                        TextColor="{StaticResource PrimaryTextColor}"
+                        FontSize="16"
+                        HorizontalOptions="Fill"
+                        Padding="16" />
+
+                <BoxView HeightRequest="1" BackgroundColor="{StaticResource SeparatorColor}" />
+
+                <Button Text="Settings"
+                        Command="{Binding ViewSettingsCommand}"
+                        BackgroundColor="Transparent"
+                        TextColor="{StaticResource PrimaryTextColor}"
+                        FontSize="16"
+                        HorizontalOptions="Fill"
+                        Padding="16" />
+
+                <BoxView HeightRequest="1" BackgroundColor="{StaticResource SeparatorColor}" />
+
+                <Button Text="Logout"
+                        Command="{Binding LogoutCommand}"
+                        BackgroundColor="Transparent"
+                        TextColor="Red"
+                        FontSize="16"
+                        HorizontalOptions="Fill"
+                        Padding="16" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

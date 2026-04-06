@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Sprint.Maui.ViewModels"
+             x:Class="Sprint.Maui.Views.LoginPage"
+             Title="Login">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30" VerticalOptions="Center">
+
+            <!-- Logo -->
+            <Image Source="dotnet_bot.png"
+                   HeightRequest="120"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Welcome to Sprint"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{StaticResource PrimaryTextColor}" />
+
+            <Label Text="Connect with friends and share your moments"
+                   FontSize="14"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{StaticResource SecondaryTextColor}" />
+
+            <!-- Email -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Email" FontSize="14" TextColor="{StaticResource PrimaryTextColor}" />
+                <Entry Text="{Binding Email}"
+                       Placeholder="Enter your email"
+                       Keyboard="Email"
+                       HorizontalTextAlignment="Start" />
+            </VerticalStackLayout>
+
+            <!-- Password -->
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Password" FontSize="14" TextColor="{StaticResource PrimaryTextColor}" />
+                <Entry Text="{Binding Password}"
+                       Placeholder="Enter your password"
+                       IsPassword="True"
+                       HorizontalTextAlignment="Start" />
+            </VerticalStackLayout>
+
+            <!-- Login Button -->
+            <Button Text="Login"
+                    Command="{Binding LoginCommand}"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="8"
+                    HeightRequest="50" />
+
+            <!-- Register Link -->
+            <Button Text="Don't have an account? Register"
+                    Command="{Binding RegisterCommand}"
+                    BackgroundColor="Transparent"
+                    TextColor="{StaticResource Primary}"
+                    FontSize="14" />
+
+            <!-- Loading Indicator -->
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                             IsVisible="{Binding IsBusy}"
+                             Color="{StaticResource Primary}"
+                             HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

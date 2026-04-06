@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Sprint.Maui.ViewModels"
+             x:Class="Sprint.Maui.Views.PostDetailPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Like" Command="{Binding LikePostCommand}" />
+        <ToolbarItem Text="Comment" Command="{Binding AddCommentCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout Spacing="0" BackgroundColor="{StaticResource PageBackgroundColor}">
+
+            <!-- Post Header -->
+            <Grid Padding="16" BackgroundColor="White" RowSpacing="12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Author Info -->
+                <Grid Grid.Row="0" ColumnSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0"
+                           Source="{Binding Post.AuthorAvatar}"
+                           Aspect="AspectFill"
+                           WidthRequest="50"
+                           HeightRequest="50">
+                        <Image.Clip>
+                            <EllipseGeometry Center="25,25" RadiusX="25" RadiusY="25" />
+                        </Image.Clip>
+                    </Image>
+
+                    <StackLayout Grid.Column="1" VerticalOptions="Center">
+                        <Label Text="{Binding Post.AuthorName}"
+                               FontAttributes="Bold"
+                               FontSize="16"
+                               TextColor="{StaticResource PrimaryTextColor}" />
+                        <Label Text="{Binding Post.CreatedAt, StringFormat='{0:g}'}"
+                               FontSize="12"
+                               TextColor="{StaticResource SecondaryTextColor}" />
+                    </StackLayout>
+                </Grid>
+
+                <!-- Content -->
+                <Label Grid.Row="1"
+                       Text="{Binding Post.Content}"
+                       FontSize="16"
+                       TextColor="{StaticResource PrimaryTextColor}"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Images -->
+                <CollectionView Grid.Row="2"
+                                ItemsSource="{Binding Post.Images}"
+                                HeightRequest="300"
+                                SelectionMode="None">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding .}"
+                                   Aspect="AspectFill"
+                                   HeightRequest="300" />
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+
+            <!-- Stats -->
+            <StackLayout Orientation="Horizontal" Padding="16" BackgroundColor="White" Spacing="24">
+                <Label Text="{Binding Post.LikesCount, StringFormat='{0} likes'}"
+                       FontSize="14"
+                       TextColor="{StaticResource SecondaryTextColor}" />
+                <Label Text="{Binding Post.CommentsCount, StringFormat='{0} comments'}"
+                       FontSize="14"
+                       TextColor="{StaticResource SecondaryTextColor}" />
+            </StackLayout>
+
+            <BoxView HeightRequest="8" BackgroundColor="{StaticResource SeparatorColor}" />
+
+            <!-- Comments Section -->
+            <StackLayout BackgroundColor="White" Spacing="0">
+                <Label Text="Comments"
+                       FontAttributes="Bold"
+                       FontSize="18"
+                       Padding="16"
+                       TextColor="{StaticResource PrimaryTextColor}" />
+
+                <CollectionView ItemsSource="{Binding Post.Comments}"
+                                SelectionMode="None"
+                                BackgroundColor="White">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="16" ColumnSpacing="12">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image Grid.Column="0"
+                                       Source="avatar_default.png"
+                                       Aspect="AspectFill"
+                                       WidthRequest="40"
+                                       HeightRequest="40">
+                                    <Image.Clip>
+                                        <EllipseGeometry Center="20,20" RadiusX="20" RadiusY="20" />
+                                    </Image.Clip>
+                                </Image>
+
+                                <StackLayout Grid.Column="1" Spacing="4">
+                                    <Label Text="{Binding AuthorName}"
+                                           FontAttributes="Bold"
+                                           FontSize="14"
+                                           TextColor="{StaticResource PrimaryTextColor}" />
+                                    <Label Text="{Binding Content}"
+                                           FontSize="14"
+                                           TextColor="{StaticResource PrimaryTextColor}"
+                                           LineBreakMode="WordWrap" />
+                                    <Label Text="{Binding CreatedAt, StringFormat='{0:g}'}"
+                                           FontSize="12"
+                                           TextColor="{StaticResource SecondaryTextColor}" />
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- Loading -->
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                             IsVisible="{Binding IsBusy}"
+                             Color="{StaticResource Primary}"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center"
+                             Margin="20" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

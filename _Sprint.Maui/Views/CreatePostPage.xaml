@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Sprint.Maui.ViewModels"
+             x:Class="Sprint.Maui.Views.CreatePostPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Command="{Binding CancelCommand}" />
+        <ToolbarItem Text="Post" Command="{Binding CreatePostCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+            <Label Text="Create New Post"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="{StaticResource PrimaryTextColor}" />
+
+            <!-- Content Editor -->
+            <Editor Text="{Binding Content}"
+                    Placeholder="What's on your mind?"
+                    HeightRequest="150"
+                    BackgroundColor="White"
+                    TextColor="{StaticResource PrimaryTextColor}"
+                    FontSize="16" />
+
+            <!-- Image Preview -->
+            <CollectionView ItemsSource="{Binding SelectedImages}"
+                            HeightRequest="100"
+                            SelectionMode="None">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding .}"
+                               Aspect="AspectFill"
+                               WidthRequest="100"
+                               HeightRequest="100"
+                               Margin="0,0,8,0" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Add Image Button -->
+            <Button Text="Add Image"
+                    Command="{Binding AddImageCommand}"
+                    BackgroundColor="{StaticResource Secondary}"
+                    TextColor="{StaticResource Primary}"
+                    HeightRequest="50"
+                    CornerRadius="8" />
+
+            <!-- Character Count -->
+            <Label Text="{Binding Content, StringFormat='Characters: {0}'}"
+                   FontSize="12"
+                   TextColor="{StaticResource SecondaryTextColor}"
+                   HorizontalTextAlignment="End" />
+
+            <!-- Loading Indicator -->
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                             IsVisible="{Binding IsBusy}"
+                             Color="{StaticResource Primary}"
+                             HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -10,10 +10,6 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
-    <!-- Register pages for direct navigation -->
-    <ShellContent Route="following" ContentTemplate="{DataTemplate views:FollowingPage}" />
-    <ShellContent Route="explore" ContentTemplate="{DataTemplate views:ExplorePage}" />
-    <ShellContent Route="nearby" ContentTemplate="{DataTemplate views:NearbyPage}" />
     <ShellItem Title="About">
         <ShellContent ContentTemplate="{DataTemplate views:AboutPage}" Route="about" />
     </ShellItem>

@@ -6,44 +6,48 @@
              x:Class="SprintAi.MainPage">
 
     <Grid RowDefinitions="Auto,Auto,*,Auto">
-        <!-- Top Navigation Bar -->
-        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" Padding="10" BackgroundColor="LightGray">
-            <Image Grid.Column="0" Source="hamburger.png" WidthRequest="24" HeightRequest="24" />
-            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="Center" Spacing="20">
-                <Label Text="Following" VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnFollowingTapped" />
-                    </Label.GestureRecognizers>
-                </Label>
-                <Label Text="Explore" FontAttributes="Bold" VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnExploreTapped" />
-                    </Label.GestureRecognizers>
-                </Label>
-                <Label Text="Nearby" VerticalOptions="Center">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnNearbyTapped" />
-                    </Label.GestureRecognizers>
-                </Label>
-            </HorizontalStackLayout>
-            <Image Grid.Column="2" Source="search.png" WidthRequest="24" HeightRequest="24" />
-        </Grid>
+        <!-- Top Navigation Bar moved to HomePage -->
 
-        <!-- Category Scroll Bar -->
-        <ScrollView Grid.Row="1" Orientation="Horizontal" BackgroundColor="White">
-            <HorizontalStackLayout Spacing="15" Padding="10">
-                <Label Text="For You" FontAttributes="Bold" />
-                <Label Text="Video" />
-                <Label Text="Live" />
-                <Label Text="Series" />
-                <Label Text="Fashion" />
-            </HorizontalStackLayout>
-        </ScrollView>
+        <!-- Category Scroll Bar moved to HomePage -->
 
         <!-- Main Content Feed area (will be swapped in-code) -->
         <ContentView Grid.Row="2" x:Name="ContentHolder" />
 
-        <!-- Bottom Navigation Bar moved into individual pages (Following/Explore/Nearby) -->
+        <!-- Bottom Navigation Bar (shared) -->
+        <Grid Grid.Row="3" ColumnDefinitions="*,*,*,*,*" Padding="10" BackgroundColor="LightGray">
+            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnHomeTapped" />
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="home_active.png" WidthRequest="24" HeightRequest="24" />
+                <Label Text="Home" FontSize="12" />
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnMarketTapped" />
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="market.png" WidthRequest="24" HeightRequest="24" />
+                <Label Text="Market" FontSize="12" />
+            </VerticalStackLayout>
+            <Button Grid.Column="2" Text="+" BackgroundColor="Red" TextColor="White" WidthRequest="50" HeightRequest="50" CornerRadius="25" VerticalOptions="Center" />
+            <VerticalStackLayout Grid.Column="3" HorizontalOptions="Center">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnMessagesTapped" />
+                </VerticalStackLayout.GestureRecognizers>
+                <Grid>
+                    <Image Source="messages.png" WidthRequest="24" HeightRequest="24" />
+                    <Label Text="1" BackgroundColor="Red" TextColor="White" FontSize="10" HorizontalOptions="End" VerticalOptions="Start" Margin="15,0,0,15" Padding="3" />
+                </Grid>
+                <Label Text="Messages" FontSize="12" />
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.Column="4" HorizontalOptions="Center">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnMeTapped" />
+                </VerticalStackLayout.GestureRecognizers>
+                <Image Source="profile.png" WidthRequest="24" HeightRequest="24" />
+                <Label Text="Me" FontSize="12" />
+            </VerticalStackLayout>
+        </Grid>
     </Grid>
 
 </ContentPage>

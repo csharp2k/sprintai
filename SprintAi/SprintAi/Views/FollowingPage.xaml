@@ -1,68 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:models="clr-namespace:SprintAi.Models"
-             x:Class="SprintAi.Views.FollowingPage"
-             Title="Following">
+             x:Class="SprintAi.Views.FollowingPage">
 
-    <Grid RowDefinitions="Auto,*,Auto">
-        <!-- Top bar simplified -->
-        <Grid RowDefinitions="Auto" Padding="10" BackgroundColor="LightGray">
-            <Label Text="Following" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" />
-        </Grid>
-
-        <!-- Main Content Feed -->
-        <CollectionView Grid.Row="1" ItemsSource="{Binding Posts}" BackgroundColor="{StaticResource PageBackgroundColor}">
-            <CollectionView.ItemsLayout>
-                <GridItemsLayout Orientation="Vertical" Span="2" />
-            </CollectionView.ItemsLayout>
-            <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="models:Post">
-                    <Frame Padding="10" BackgroundColor="White" Margin="5" CornerRadius="10">
-                        <Grid RowDefinitions="Auto,Auto,Auto">
-                            <Image Grid.Row="0" Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="150" />
-                            <Label Grid.Row="1" Text="{Binding Title}" FontSize="16" Margin="0,5" />
-                            <HorizontalStackLayout Grid.Row="2" Spacing="10">
-                                <Image Source="{Binding AuthorAvatar}" WidthRequest="30" HeightRequest="30" Aspect="AspectFill">
-                                    <Image.Clip>
-                                        <EllipseGeometry Center="15,15" RadiusX="15" RadiusY="15" />
-                                    </Image.Clip>
-                                </Image>
-                                <Label Text="{Binding AuthorName}" VerticalOptions="Center" />
-                                <HorizontalStackLayout HorizontalOptions="EndAndExpand">
-                                    <Image Source="heart.png" WidthRequest="20" HeightRequest="20" />
-                                    <Label Text="{Binding Likes}" VerticalOptions="Center" />
-                                </HorizontalStackLayout>
-                            </HorizontalStackLayout>
-                        </Grid>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
-        <!-- Bottom Navigation Bar -->
-        <Grid Grid.Row="2" ColumnDefinitions="*,*,*,*,*" Padding="10" BackgroundColor="LightGray">
-            <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center">
-                <Image Source="home_active.png" WidthRequest="24" HeightRequest="24" />
-                <Label Text="Home" FontSize="12" />
-            </VerticalStackLayout>
-            <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center">
-                <Image Source="market.png" WidthRequest="24" HeightRequest="24" />
-                <Label Text="Market" FontSize="12" />
-            </VerticalStackLayout>
-            <Button Grid.Column="2" Text="+" BackgroundColor="Red" TextColor="White" WidthRequest="50" HeightRequest="50" CornerRadius="25" VerticalOptions="Center" />
-            <VerticalStackLayout Grid.Column="3" HorizontalOptions="Center">
-                <Grid>
-                    <Image Source="messages.png" WidthRequest="24" HeightRequest="24" />
-                    <Label Text="1" BackgroundColor="Red" TextColor="White" FontSize="10" HorizontalOptions="End" VerticalOptions="Start" Margin="15,0,0,15" Padding="3" />
-                </Grid>
-                <Label Text="Messages" FontSize="12" />
-            </VerticalStackLayout>
-            <VerticalStackLayout Grid.Column="4" HorizontalOptions="Center">
-                <Image Source="profile.png" WidthRequest="24" HeightRequest="24" />
-                <Label Text="Me" FontSize="12" />
-            </VerticalStackLayout>
-        </Grid>
+    <Grid>
+        <Label Text="Following (placeholder)" HorizontalOptions="Center" VerticalOptions="Center" FontAttributes="Bold" />
     </Grid>
 
 </ContentPage>

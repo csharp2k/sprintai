@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:SprintAi.Models"
+             x:Class="SprintAi.Views.Categories.ForYouPage">
+
+    <Grid RowDefinitions="Auto, *">
+        <StackLayout Padding="10" Grid.Row="0">
+            <Label Text="For You" FontAttributes="Bold" FontSize="20" HorizontalOptions="Center" />
+        </StackLayout>
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Posts}" BackgroundColor="{StaticResource PageBackgroundColor}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="2" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Post">
+                    <Frame Padding="10" BackgroundColor="White" Margin="5" CornerRadius="10">
+                        <Grid RowDefinitions="Auto,Auto,Auto">
+                            <Image Grid.Row="0" Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="150" />
+                            <Label Grid.Row="1" Text="{Binding Title}" FontSize="16" Margin="0,5" />
+                            <HorizontalStackLayout Grid.Row="2" Spacing="10">
+                                <Image Source="{Binding AuthorAvatar}" WidthRequest="30" HeightRequest="30" Aspect="AspectFill">
+                                    <Image.Clip>
+                                        <EllipseGeometry Center="15,15" RadiusX="15" RadiusY="15" />
+                                    </Image.Clip>
+                                </Image>
+                                <Label Text="{Binding AuthorName}" VerticalOptions="Center" />
+                                <HorizontalStackLayout HorizontalOptions="EndAndExpand">
+                                    <Image Source="heart.png" WidthRequest="20" HeightRequest="20" />
+                                    <Label Text="{Binding Likes}" VerticalOptions="Center" />
+                                </HorizontalStackLayout>
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>

@@ -15,16 +15,16 @@
                         <Grid RowDefinitions="Auto,Auto,Auto">
                             <Image Grid.Row="0" Source="{Binding ImageUrl}" Aspect="AspectFill" HeightRequest="150" />
                             <Label Grid.Row="1" Text="{Binding Title}" FontSize="16" Margin="0,5" />
-                            <HorizontalStackLayout Grid.Row="2" Spacing="10">
-                                <Image Source="{Binding AuthorAvatar}" WidthRequest="30" HeightRequest="30" Aspect="AspectFill">
+                            <HorizontalStackLayout Grid.Row="2" Margin="2,10,2,2">
+                                <Image Source="{Binding AuthorAvatar}" WidthRequest="20" HeightRequest="20" Aspect="AspectFill">
                                     <Image.Clip>
                                         <EllipseGeometry Center="15,15" RadiusX="15" RadiusY="15" />
                                     </Image.Clip>
                                 </Image>
                                 <Label Text="{Binding AuthorName}" VerticalOptions="Center" />
-                                <HorizontalStackLayout HorizontalOptions="EndAndExpand">
-                                    <Image Source="heart.png" WidthRequest="20" HeightRequest="20" />
-                                    <Label Text="{Binding Likes}" VerticalOptions="Center" />
+                                <HorizontalStackLayout HorizontalOptions="End">
+                                    <Image Source="{Binding LikesAvatar}" WidthRequest="20" HeightRequest="20" />
+                                    <Label Text="{Binding Likes}" VerticalOptions="Center" HorizontalOptions="End" />
                                 </HorizontalStackLayout>
                             </HorizontalStackLayout>
                         </Grid>

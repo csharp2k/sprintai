@@ -6,6 +6,7 @@ namespace SprintAi.Models
         public string Title { get; set; }
         public string AuthorAvatar { get; set; }
         public string AuthorName { get; set; }
+        public string LikesAvatar { get; set; }
         public string Likes { get; set; }
     }
 }

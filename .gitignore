@@ -159,5 +159,5 @@ MCIME202108/.vs/SampleIME/v16/.suo
 
 SprintAi/SprintAi/obj/
 SprintAi/SprintAi/bin/
-/SprintAi/.vs/ProjectEvaluation
-/SprintAi/.vs
+SprintAi/.vs
+*.bin
